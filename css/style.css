@@ -1,51 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
-*,
-::after,
-::before {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Luckiest Guy", cursive;
-}
-body{
-    background: orange;
-}
-::-webkit-scrollbar {
-    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
-.img{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-.wrapper {
-    display: flex;
+.main_box{
     position: relative;
+    background: url('Background.jpeg') right no-repeat ;
+    height: 100vh;
+    width: 100%;
 }
-.wrapper .sidebar{
+.main_box .navbar-menu{
     position: fixed;
-    width: 12.5rem;
-    height: 100%;
-    background: black;
-    padding: 30px 0;
+    height: 100vh;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
-.wrapper .sidebar ul li{
-    padding: 15px;
-    border-bottom: 1px solid rgba(0,0,0,0.05) ;
-    border-top: 1px solid rgba(225,225,0,0.05)
+img{
+    display: flexbox;
 }
-
-.wrapper .sidebar ul li a{
-    color: black;
-    display: block;
-}
-
-
-  
