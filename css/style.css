@@ -226,7 +226,7 @@ section {
     margin-bottom: 4rem;
 }
 
-.services {
+.resume {
     background: var(--second-bg-color);
 
 }
@@ -245,8 +245,11 @@ section {
     font-size: var(--h2-font);
     line-height: 1;
 }
+#bedshop{
+    display: flex;
+}
 
-.services-content {
+.resume-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
