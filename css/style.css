@@ -19,6 +19,7 @@
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
+    --bg-color2: darkorange; 
 }
 
 body {
@@ -51,9 +52,14 @@ header {
 span {
     color: var(--main-color);
 }
+.active {
+    text-decoration: none;
+    text-transform: var(--second-color);
+}
 
 .navlist {
-    display: flex;
+    display:flex;
+    text-decoration: none;
 }
 
 .navlist a {
@@ -66,6 +72,14 @@ span {
 
 .navlist a:hover {
     color: var(--main-color);
+}
+.image {
+    position:relative;
+    display: flex;
+}
+.image2{
+    position: absolute;
+    margin-left: auto;
 }
 
 .navlist a.active {
@@ -89,10 +103,10 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: flex-start;
 }
@@ -114,10 +128,16 @@ section {
 }
 
 .two {
-    display: inline-block;
+    display: flexbox;
     color: var(--second-color);
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 500;
+    padding-left:1dvh;
+    text-align: center;
+}
+.navbar-content {
+    background: var(--bg-color2);
+    display: flexbox;
 }
 
 .home-text h1 {
@@ -126,6 +146,9 @@ section {
     color: var(--text-color);
     line-height: 1.1;
     margin: 0 0 8px;
+    text-align: left;
+    padding-right:0 0 ;
+
 
 }
 
@@ -135,6 +158,7 @@ section {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.1;
+    text-align: left;
 }
 
 .home-text p {
