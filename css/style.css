@@ -48,7 +48,18 @@ header {
     font-weight: 700;
     letter-spacing: 1px;
 }
-
+.calculator{
+    width:auto
+}
+.img-calc{
+    width: 200px;
+    height: 200px;
+}
+.img-keyb{
+    width: 100px;
+    height: 100px;
+   
+}
 span {
     color: var(--main-color);
 }
@@ -258,23 +269,51 @@ section {
 }
 
 .box {
-    background: var(--bg-color);
-    padding: 35px 45px;
+    background: rgb(0, 0, 0);
+    padding: 60px 60px;
     border-radius: 8px;
     transition: all .45s ease;
+   
+    
+ 
+
+}
+.logo0 {
+    width: 90px;
+    height: 30px;
+    margin-top: 10%;
+}
+.img-keyb {
+    display: inline-flexbox;
+}
+.calculator h3{
+    color: #202020;
+}
+.git {
+    text-decoration: none;
+    color: #00a6ff;
+    align-content: space-between;
+    display: block;
 }
 
 .s-icons i {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    align-content: flex-end;
 
 }
+.row {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    display: flex;
+  }
 
 .box h3 {
     font-size: 24px;
     font-weight: 600;
     color: var(--text-color);
-    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .box p {
@@ -289,7 +328,7 @@ section {
     cursor: pointer;
 }
 
-.portfolio-content {
+.projects-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     align-items: center;
@@ -361,6 +400,23 @@ section {
 
 .row:hover .layer {
     height: 100%;
+}
+.skills-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-text {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .contact {
